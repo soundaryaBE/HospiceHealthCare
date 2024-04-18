@@ -56,7 +56,7 @@ public class AddPatientUsingPomTest extends Base {
 		//  
 		PatientAddPage patientaddpage=new PatientAddPage(driver);
 		patientaddpage.addPatient(PatientName, contno, uniqueEmail, patadd, age, medhis, PatientName, driver);
-
+//Excecuted Successfully
 		driver.quit();
 
 	} 
